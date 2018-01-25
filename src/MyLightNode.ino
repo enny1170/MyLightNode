@@ -33,7 +33,7 @@ void before() {
   /*
    * Register below your sensors
   */
-  nodeManager.registerSensor(SENSOR_RELAY,3,1);
+  nodeManager.registerSensor(SENSOR_RELAY,8,1);
 /*   #if SIGNAL_SENSOR == 1 && defined(MY_SIGNAL_REPORT_ENABLED)
       // [33] How frequenly to send a signal report to the controller (default: 60 minutes)
       nodeManager.setSignalReportMinutes(30);
@@ -44,11 +44,11 @@ void before() {
       // [45] How frequenly to send a signal report to the controller (default: 60 minutes)
       // void setSignalReportDays(int value);
       // [34] define which signal report to send. Possible values are SR_UPLINK_QUALITY, SR_TX_POWER_LEVEL, SR_TX_POWER_PERCENT, SR_TX_RSSI, SR_RX_RSSI, SR_TX_SNR, SR_RX_SNR (default: SR_RX_RSSI)
-      nodeManager.setSignalCommand(SR_RX_RSSI);
+      // nodeManager.setSignalCommand(SR_RX_RSSI);
       // [35] report the signal level to the controller
       // void signalReport();
-  #endif  
- */
+  #endif   */
+
   
   /*
    * Register above your sensors
